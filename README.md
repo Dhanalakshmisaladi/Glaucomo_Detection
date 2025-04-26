@@ -113,22 +113,24 @@ python predict.py --image path_to_image.jpg
 ## 📁 Project Structure
 
 ```
-## 📁 Project Structure
+glaucoma-detection/
+├── GlaucomaDetection.ipynb   # Model training and evaluation notebook
+├── README.md                 # Project overview (this file)
+├── app.py                    # Flask app backend
+├── model.py                  # CNN model building and loading
+├── main.js                   # Frontend JavaScript for dynamic features
+├── styles.css                # CSS styling
+├── templates/                # HTML pages
+│   ├── base.html
+│   ├── index.html
+│   ├── about.html
+│   ├── contact.html
+│   ├── predict.html
+│   └── project.html
+└── static/                   # Static files
+    ├── images/               # Uploaded or default images
+```
 
-```
-GlaucomaDetection.ipynb   # Jupyter Notebook for model building
-README.md                 # Project documentation
-about.html                # About page HTML
-app.py                    # Flask app main file
-base.html                 # Base HTML template
-contact.html              # Contact page HTML
-index.html                # Homepage HTML
-main.js                   # JavaScript file
-model.py                  # Model loading and prediction functions
-predict.html              # Prediction result page HTML
-project.html              # Project details page HTML
-styles.css                # CSS styling
-```
 
 
 ---
