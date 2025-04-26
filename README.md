@@ -113,18 +113,23 @@ python predict.py --image path_to_image.jpg
 ## 📁 Project Structure
 
 ```
-glaucoma-detection/
-├── datasets/         # Contains Drishti-GS, RIM-ONE DL, ACRIMA folders
-├── models/           # Trained model checkpoints
-├── notebooks/        # Jupyter notebooks for EDA, experiments
-├── outputs/          # Logs, result graphs, prediction outputs
-├── preprocess.py     # Preprocessing pipeline
-├── train.py          # Training script
-├── evaluate.py       # Evaluation script
-├── predict.py        # Inference script
-├── requirements.txt  # Python dependencies
-└── README.md         # Project overview
+## 📁 Project Structure
+
 ```
+GlaucomaDetection.ipynb   # Jupyter Notebook for model building
+README.md                 # Project documentation
+about.html                # About page HTML
+app.py                    # Flask app main file
+base.html                 # Base HTML template
+contact.html              # Contact page HTML
+index.html                # Homepage HTML
+main.js                   # JavaScript file
+model.py                  # Model loading and prediction functions
+predict.html              # Prediction result page HTML
+project.html              # Project details page HTML
+styles.css                # CSS styling
+```
+
 
 ---
 
